@@ -1,0 +1,5 @@
+@media screen and (max-width: 576px) {
+  .text-center-sm {
+    text-align: center !important;
+  }
+}
