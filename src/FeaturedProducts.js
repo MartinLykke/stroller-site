@@ -6,7 +6,7 @@ import img3 from "./Images/featured3.jpg";
 
 function FeaturedProducts() {
   return (
-    <div className='container center'>
+    <div className='container center '>
       <h1 className='text-center py-4'>Featured products</h1>
       <hr class='line' />
       <div className='container'>
@@ -21,7 +21,7 @@ function FeaturedProducts() {
                   the bulk of the card's content.
                 </p>
                 <a href='/' className='btn btn-primary'>
-                  Go somewhere
+                  Se mere
                 </a>
               </div>
             </div>
@@ -36,7 +36,7 @@ function FeaturedProducts() {
                   the bulk of the card's content.
                 </p>
                 <a href='/' className='btn btn-primary'>
-                  Go somewhere
+                  Se mere
                 </a>
               </div>
             </div>
@@ -51,7 +51,7 @@ function FeaturedProducts() {
                   the bulk of the card's content.
                 </p>
                 <a href='/' className='btn btn-primary'>
-                  Go somewhere
+                  Se mere
                 </a>
               </div>
             </div>

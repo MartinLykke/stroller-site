@@ -9,7 +9,7 @@ let houseIcon = (
     height='32'
     viewBox='0 0 24 24'
     stroke-width='1.5'
-    stroke='#ffffff'
+    stroke='var(--clr-primary-2)'
     fill='none'
     stroke-linecap='round'
     stroke-linejoin='round'
@@ -28,7 +28,7 @@ let packageIcon = (
     height='32'
     viewBox='0 0 24 24'
     stroke-width='1.5'
-    stroke='#ffffff'
+    stroke='var(--clr-primary-2)'
     fill='none'
     stroke-linecap='round'
     stroke-linejoin='round'
@@ -49,7 +49,7 @@ let phoneIcon = (
     height='32'
     viewBox='0 0 24 24'
     stroke-width='1.5'
-    stroke='#ffffff'
+    stroke='var(--clr-primary-2)'
     fill='none'
     stroke-linecap='round'
     stroke-linejoin='round'
@@ -62,7 +62,7 @@ function Navbar() {
   return (
     <>
       <header>
-        <div className='px-3 py-2 bg-dark text-white'>
+        <div className='px-3 py-2 bluefade text-white'>
           <div className='container'>
             <div className='d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start'>
               <a
@@ -76,19 +76,19 @@ function Navbar() {
 
               <ul className='nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small'>
                 <li>
-                  <a href='/' className='nav-link text-secondary'>
+                  <a href='/' className='nav-link text-primary2 hvr-grow'>
                     {houseIcon}
                     Hjem
                   </a>
                 </li>
                 <li>
-                  <a href='/' className='nav-link text-white'>
+                  <a href='/' className='nav-link text-primary2 hvr-grow'>
                     {packageIcon}
                     Produkter
                   </a>
                 </li>
                 <li>
-                  <a href='/' className='nav-link text-white'>
+                  <a href='/' className='nav-link text-primary2 hvr-grow'>
                     {phoneIcon}
                     Kontakt
                   </a>
