@@ -1,13 +1,15 @@
 import "./App.css";
+import FeaturedProducts from "./FeaturedProducts";
 import LandingPage from "./LandingPage";
 import Navbar from "./Navbar";
 
 function App() {
   return (
-    <div className='App'>
+    <>
       <Navbar />
       <LandingPage />
-    </div>
+      <FeaturedProducts />
+    </>
   );
 }
 
